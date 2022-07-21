@@ -1,0 +1,112 @@
+*{
+  background-color: rgb(185, 225, 225); 
+  }
+.App{ 
+ box-sizing: border-box; 
+}
+nav{
+  background-color: rgb(234, 238, 197);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(234, 238, 197);
+}
+li {
+  float: left;
+  display: block;
+  padding: 10px;
+  background-color: rgb(245, 248, 219);
+  color: rgb(97, 94, 94);
+}
+li:hover{
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1) !important;
+}
+.nav-list{
+  float: right;
+}
+.nav-list button{
+  background-color: rgb(212, 236, 236);
+  border: 1px solid slategray;
+  border-radius: 8px;
+}
+button:hover{
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1) !important;
+
+}
+.hero{
+  text-align: center;
+  color: rgb(75, 73, 73);
+  margin: 0;
+}
+.sort-div{
+  border: 1px solid slategray;
+  float: right;
+  width:200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.filter-div{
+  border: 1px solid slategray;
+  float: left;
+  width:210px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  }
+.sort{
+  float: right;
+  margin: 5px;
+  background-color: rgb(212, 236, 236);
+  border: 1px solid slategray;
+  border-radius: 8px;
+  padding:6px;
+  font-weight: bold;
+}
+.filter{
+  float: left;
+  margin: 5px;
+  background-color: rgb(212, 236, 236);
+  border: 1px solid slategray;
+  border-radius: 8px;
+  padding:6px;
+  font-weight: bold;
+  
+}
+.inner{  
+  margin:30px;
+  background-color: rgb(212, 236, 236);
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+.box{
+  /* background-color: rgb(185, 225, 225);  */
+  margin: 7px;
+  border: 1px solid rgba(126, 123, 123, 0.3);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center; 
+  width: 200px; 
+}
+.box:hover{
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1) !important;
+}
+img{
+  width: 200px;
+  height:300px;
+  }
+  .add-to-cart{
+
+    
+    margin: 10px;
+    background-color: rgb(212, 236, 236);
+    border: 1px solid slategray;
+    border-radius: 8px;
+    padding:5px;
+    font-weight: bold;
+  }
